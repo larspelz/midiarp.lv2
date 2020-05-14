@@ -1,16 +1,16 @@
-midigen.lv2 - Midi Event Generator
+midiarp.lv2 - MIDI arpeggiator
 ==================================
 
-midigen.lv2 is simple test-sequence generator.
+midiarp.lv2 is a MIDI arpeggiator.
 
 Install
 -------
 
-Compiling midigen requires the LV2 SDK, gnu-make, and a c-compiler.
+Compiling midiarp requires the LV2 SDK, gnu-make, and a c-compiler.
 
 ```bash
-  git clone git://github.com/x42/midigen.lv2.git
-  cd midigen.lv2
+  git clone https://github.com/larspelz/midiarp.lv2.git
+  cd midiarp.lv2
   make
   sudo make install PREFIX=/usr
 ```
